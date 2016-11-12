@@ -1,0 +1,7 @@
+header nav {
+ text-align:right;
+ margin-top:2em;
+}
+header nav ul li {
+ display:inline-block;
+}
