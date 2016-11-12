@@ -99,3 +99,44 @@ header nav ul li a {
    -moz-background-clip: padding;
    -webkit-background-clip: padding-box;
    background-clip: padding-box; /* prevents bg color from leaking outside the border */ }
+
+ input[type="email"],
+ input[type="number"],
+ input[type="search"],
+ input[type="text"],
+ input[type="tel"],
+ input[type="url"],
+ input[type="password"],
+ textarea,
+ select {
+   height: 38px;
+   padding: 6px 10px; /* The 6px vertically centers text on FF, ignored by Webkit */
+   background-color: #fff;
+   border: 1px solid #D1D1D1;
+   border-radius: 4px;
+   box-shadow: none;
+   box-sizing: border-box;
+   width:100%; }
+
+.program {
+ padding:4em 0 0;
+ background-color: #f6f8fa;
+}
+.program h3 {
+ color:#009be8;
+ font-weight: 300;
+ font-size:1.5em;
+}
+
+.sylabus {
+  border-radius: 0px;
+  background-color: #f2a057;
+}
+
+/* Program*/
+
+.program h3 {
+  text-transform: uppercase;
+  font-size: 1.23em;
+  color: #f2a057;
+}
