@@ -133,10 +133,32 @@ header nav ul li a {
   background-color: #f2a057;
 }
 
-/* Program*/
-
 .program h3 {
   text-transform: uppercase;
   font-size: 1.23em;
   color: #f2a057;
+}
+
+/* Team*/
+.team h2 {
+  text-align: center;
+  margin: 1em 0 1em 0;
+}
+
+.team img {
+  max-width: 220px;
+  max-height: 220px;
+}
+
+.team-description {
+  margin: auto;
+}
+.team-description h4 {
+  margin: auto;
+  font-size: 1.5em;
+  font-weight: 600;
+}
+
+.team-description h5 {
+  font-size: 1em;
 }
